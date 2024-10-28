@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1ba0d0;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    gap: 30px; /* Aumentar o espaçamento entre os cards */
+    padding: 20px; /* Espaçamento interno */
+    margin: 10px 20px; /* Diminuir a margem superior e inferior e definir margens laterais */
+    max-width: 1600px; /* Limita a largura da container */
+    margin-left: auto; /* Centraliza o container */
+    margin-right: auto; /* Centraliza o container */
+}
+
+#sobre {
+    background-color: #e0f7fa; /* Cor de fundo suave */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Margem superior e inferior */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#sobre h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+    color: #1ba0d0; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#sobre h2 {
+    font-size: 1.2em; /* Tamanho do subtítulo */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    max-width: 800px; /* Largura máxima do texto */
+    margin: 0 auto; /* Centraliza o texto */
+}
+
+#contato {
+    background-color: #f0f4f8; /* Cor de fundo suave */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Margem superior e inferior */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#contato h2 {
+    font-size: 2.5em; /* Tamanho do título */
+    color: #1ba0d0; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#contato form {
+    display: flex; /* Usar flexbox para o layout do formulário */
+    flex-direction: column; /* Colocar os elementos em coluna */
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+#contato label {
+    margin: 10px 0 5px; /* Margens para os rótulos */
+    font-weight: bold; /* Negrito para os rótulos */
+    color: #333; /* Cor do texto */
+}
+
+#contato input,
+#contato textarea {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento abaixo dos campos */
+    font-size: 1em; /* Tamanho da fonte */
+}
+
+#contato button {
+    background-color: #1ba0d0; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+#contato button:hover {
+    background-color: #1791b0; /* Cor do botão ao passar o mouse */
+}
+
+.container1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.container2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.card {
+    background-color: #73b8cc; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    transition: transform 0.2s;
+}
+
+.card h2 {
+    font-size: 1.8em; /* Aumentar tamanho da fonte do título */
+    padding: 10px;
+    color: white; /* Cor do texto do título */
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+}
+
+.card p {
+    padding: 0 10px 10px; 
+    color: white; /* Cor do texto dos parágrafos */
+    font-size: 1.1em; /* Aumentar tamanho da fonte dos parágrafos */
+}
+
+.card p strong {
+    font-weight: bold; /* Negrito para os anos */
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+
+section h1 {
+    text-align: center;
+
+    margin: 0;
+    padding-bottom: 30px;
+    color:cadetblue;
+}
+
+
+section h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0px;
+    color:cadetblue;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8594c2;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1ba0d0;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+    }
+
+    .card {
+        max-width: 100%; /* Cards ocupam toda a largura disponível */
+    }
+
+    .card h2 {
+        font-size: 1.5em; /* Tamanho do título menor em telas pequenas */
+    }
+
+    .card p {
+        font-size: 1em; /* Tamanho do texto menor em telas pequenas */
+    }
+    
+    #sobre h1 {
+       font-size: 2em; /* Tamanho do título menor em telas pequenas */
+    }
+    
+    #sobre h2 {
+       font-size: 1em; /* Tamanho do texto menor em telas pequenas */
+    }
+    
+    #contato h2 {
+        font-size: 2em; /* Tamanho do título menor em telas pequenas */
+    }
+
+    #contato input,
+    #contato textarea {
+        font-size: 0.9em; /* Tamanho da fonte menor em telas pequenas */
+    }
+
+    #contato button {
+        font-size: 0.9em; /* Tamanho da fonte do botão menor em telas pequenas */
+    }
+}
